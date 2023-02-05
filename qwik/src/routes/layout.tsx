@@ -6,7 +6,7 @@ export default component$(() => {
     <>
       <main>
         <Header />
-        <section>
+        <section class="max-w-[80vw] mx-auto">
           <Slot />
         </section>
       </main>
